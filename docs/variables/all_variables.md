@@ -5,7 +5,7 @@ sidebar_label: Environment Variables
 ---
 
 ---
-<!-- 
+
 - [API_ID, API_HASH & SESSION](/docs/variables/mandatory_variables#obtaining-api_id--api_hash)
 - [HNDLR](#hndlr)
 - [BOT_USERNAME & BOT_TOKEN](#bot_username--bot_token)
@@ -15,7 +15,7 @@ sidebar_label: Environment Variables
 - [I_DEV](#i_dev)
 - [MSG_FRWD](#msg_frwd)
 
---- -->
+---
 
 ### HNDLR
 
