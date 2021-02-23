@@ -1,18 +1,24 @@
 module.exports = {
-  someSidebar: {
-    Ultroid: [
-      'ultroid/intro'
-    ],
-    Installation: [
-      'installation/heroku',
-      'installation/local_deploy'
-    ],
-    Variables: [
-      'variables/mandatory_variables',
-      'variables/all_variables'
-    ],
-    // 'Ultroid Guides': [
-    //   'guides/pmpermit'
-    // ]
-  },
+  "sidebar": [
+    {
+      "type": "doc",
+      "id": "ultroid/intro"
+    },
+    {
+      "type": "category",
+      "label": "Installation",
+      "items": [
+        "installation/heroku",
+        "installation/local_deploy"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Variables",
+      "items": [
+        "variables/mandatory_variables",
+        "variables/all_variables"
+      ]
+    }
+  ]
 };
