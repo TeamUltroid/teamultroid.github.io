@@ -19,6 +19,14 @@ module.exports = {
         "variables/mandatory_variables",
         "variables/all_variables"
       ]
+    },
+    {
+      "type": "doc",
+      "id": "guides/index"
+    },
+    {
+      "type": "ref",
+      "id": "pyUltroid/soon"
     }
   ]
 };

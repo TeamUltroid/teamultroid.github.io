@@ -22,7 +22,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        // {to: 'blog', label: 'Blog', position: 'left'},
+        // { to: 'docs/pyUltroid', label: 'pyUltroid', position: 'left' },
         {
           href: 'https://github.com/TeamUltroid/Ultroid',
           label: 'GitHub',
@@ -39,7 +39,11 @@ module.exports = {
             {
               label: 'Documentation',
               to: 'docs/',
-            }
+            },
+            {
+              label: 'pyUltroid',
+              to: 'docs/pyUltroid',
+            },
           ],
         },
         {
@@ -54,10 +58,6 @@ module.exports = {
         {
           title: 'More',
           items: [
-            // {
-            //   label: 'Blog',
-            //   to: 'blog',
-            // },
             {
               label: 'GitHub',
               href: 'https://github.com/TeamUltroid/Ultroid',
