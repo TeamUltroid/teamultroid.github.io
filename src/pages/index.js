@@ -58,7 +58,7 @@ function Home() {
   return (
     <Layout
       title={`Ultroid Userbot`}
-      description="Description will go into a meta tag in <head />">
+      description="Ultroid Userbot Documentation">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
