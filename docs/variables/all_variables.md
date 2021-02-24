@@ -12,6 +12,7 @@ sidebar_label: Environment Variables
 - [LOG_CHANNEL](#bot_username--bot_token)
 - [REDIS_URI & REDIS_PASSWORD](/docs/variables/mandatory_variables#obtaining-redis-info)
 - [HEROKU_API & HEROKU_APP_NAME](#heroku_api--heroku_app_name)
+- [ADDONS](#addons)
 - [I_DEV](#i_dev)
 - [MSG_FRWD](#msg_frwd)
 
@@ -64,6 +65,14 @@ Rose will Reply you with an ID , This can be used  for `LOG_CHANNEL` . You can r
 
 * __HEROKU_API :__ Sign in to your Heroku Account and go to [Account Settings](https://dashboard.heroku.com/account) , Scroll down and you will find your API Key 
 * __HEROKU_APP_NAME :__ The app name you gave while deploying Ultroid
+
+---
+
+### ADDONS
+
+__Type :__ `Boolean`
+
+__Usage :__ If set `True` Ultroid will clone addon plugins from [UltroidAddons](https://github.com/TeamUltroid/UltroidAddons)
 
 ---
 
