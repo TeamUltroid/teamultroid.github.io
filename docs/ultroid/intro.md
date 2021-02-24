@@ -13,7 +13,7 @@ Ultroid is a pluggable telegram userbot, made in python using Telethon!
 
 Ultroid has been written from scratch, making it more stable and less of crashes.
 
-### 2. Better Error handling
+### 2. Better Error Handling
 
 Error handling been done in the best way possible, such that the bot doesn't crash and stop all of a sudden.
 
@@ -21,7 +21,7 @@ Error handling been done in the best way possible, such that the bot doesn't cra
 
 Ultroid has minimal amount of plugins (just the necessary ones) in the main repository, and all the other less-usefull stuff in the addons repository. This facilitates quick deployments and lag free use.
 
-### 4. Herokusupport 
+### 4. Heroku Support 
 
 Unlike many other userbots which are being suspended by heroku, Ultroid doesn't get suspended. 
 

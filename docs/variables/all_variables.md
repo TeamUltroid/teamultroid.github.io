@@ -41,7 +41,7 @@ Now Botfather will provide you the Access Token for your bot. `BOT_TOKEN` is thi
 Use `@` at the beginning while setting ENV Vars
 
 :::note
-Make Sure `Inline Mode` is turned on
+Make Sure `Inline Mode` is turned on, Bot is added in `LOG_CHANNEL` and can send messages there
 :::
 
 ---
@@ -51,7 +51,7 @@ Make Sure `Inline Mode` is turned on
 Log Channel is required for storing Ultroid Logs
 
 - Create a PRIVATE GROUP
-- Add @MissRose_bot
+- Add @MissRose_bot and your [assistant bot](#bot_username--bot_token)
 - send Command `/id`
 
 Rose will Reply you with an ID , This can be used  for `LOG_CHANNEL` . You can remove Rose bot from there .

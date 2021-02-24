@@ -65,7 +65,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Team Ultroid, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/TeamUltroid" target="_blank">Team Ultroid</a>, Inc.`,
     },
   },
   presets: [
