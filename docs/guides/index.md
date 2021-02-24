@@ -16,8 +16,7 @@ To Enable PM Permit go to your assistant bot (the bot you Made from botfather an
 * Click on `PM Permit`
 * Click on `Turn PMPermit On` , You can disable PMPermit by clicking on `Turn PMPermit Off`
 
-### 2. How to customize `alive` messege
-
+### 2. How to customize `alive` message
 To customize `alive` go to your assistant bot (the bot you Made from botfather and using in ultroid) . 
 * Start the bot
 * Click on `Settings`
