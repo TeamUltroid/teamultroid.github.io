@@ -9,6 +9,11 @@ module.exports = {
   organizationName: 'TeamUltroid',
   projectName: 'teamultroid.github.io',
   themeConfig: {
+    metadatas: [{ name: 'yandex-verification', content: 'b8291c7f76165c9d' }],
+    // colorMode: {
+    //   defaultMode: 'dark',
+    //   respectPrefersColorScheme: false,
+    // },
     navbar: {
       title: 'Ultroid',
       logo: {
