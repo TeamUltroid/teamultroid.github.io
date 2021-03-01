@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Ultroid',
   tagline: 'Ultroid, a pluggable telegram userbot, made in python using Telethon!',
-  url: 'https://teamultroid.github.io',
+  url: 'https://www.ultroid.tech',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
