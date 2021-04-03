@@ -7,14 +7,14 @@ sidebar_label: Environment Variables
 ---
 
 - [API_ID, API_HASH & SESSION](/docs/variables/mandatory_variables#obtaining-api_id--api_hash)
-- [HNDLR](#hndlr)
 - [BOT_USERNAME & BOT_TOKEN](#bot_username--bot_token)
 - [LOG_CHANNEL](#bot_username--bot_token)
 - [REDIS_URI & REDIS_PASSWORD](/docs/variables/mandatory_variables#obtaining-redis-info)
 - [HEROKU_API & HEROKU_APP_NAME](#heroku_api--heroku_app_name)
 - [ADDONS](#addons)
+- [HNDLR](#hndlr)
 - [I_DEV](#i_dev)
-- [MSG_FRWD](#msg_frwd)
+- [PMBOT](#pmbot)
 
 ---
 
@@ -70,9 +70,9 @@ Rose will Reply you with an ID , This can be used  for `LOG_CHANNEL` . You can r
 
 ### ADDONS
 
-__Type :__ `Boolean`
+__Type :__ `Boolean` __Default :__ `True`
 
-__Usage :__ If set `True` Ultroid will clone addon plugins from [UltroidAddons](https://github.com/TeamUltroid/UltroidAddons)
+__Usage :__ If set `False` Ultroid will Not clone addon plugins from [UltroidAddons](https://github.com/TeamUltroid/UltroidAddons)
 
 ---
 
@@ -84,9 +84,9 @@ Don't Use This if you are not familiar with python and linux
 
 ---
 
-### MSG_FRWD
+### PMBOT
 
 Type : `Boolean`
 Default : `False`
 
-If set `True`, messeges sent to your Assistant Bot will be forwarded to you 
+If set `True`, messeges sent to your Assistant Bot will be forwarded to you And By replying to it u can chat with them. [Example](https://t.me/UltroidUpdates/2)
