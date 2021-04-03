@@ -17,7 +17,7 @@ module.exports = {
       "label": "Variables",
       "items": [
         "variables/env_variables",
-        // "variables/all_variables"
+        "variables/redis_vars"
       ]
     },
     {
