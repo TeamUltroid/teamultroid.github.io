@@ -33,6 +33,12 @@ Ultroid can install any plugin from the most of the other 'userbots' without any
 
 Ultroid warns you when you try to install/execute dangerous stuff (people nowadays make plugins to hack user accounts, Ultroid is safe)
 
-### 7. PIP Module Available (soon)
+### 7. Multi-Language Support
 
-We have managed to pack the core into a pip package, which we'll release soon! This means anyone can make a userbot with just the stuff they like!! (Further info on release)
+Currently We Have 13 Language Support , Will add More Soon 😁😁.
+
+### 8. Some Cool Features
+
+  
+
+
