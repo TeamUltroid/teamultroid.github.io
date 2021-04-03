@@ -26,36 +26,6 @@ e.g: If you set `,` as HNDLR then your commands will be like `,alive` , `,ping` 
 
 ---
 
-### BOT_USERNAME & BOT_TOKEN
-
-A Telegram bot is required by Ultroid for various resons like - helpmenu .
-
-To get this Visit [Botfather](https://telegram.dog/botfather) (@BotFather) in telegram
-
-- Start Botfather
-- Send Command `/newbot`
-- Send a name for your bot
-- Choose a username for your bot (must end with `bot` . e.g: ultroidbot,ultroid_bot)
-
-Now Botfather will provide you the Access Token for your bot. `BOT_TOKEN` is this Access Token and `BOT_USERNAME` is the username you sent 
-
-Use `@` at the beginning while setting ENV Vars
-
-:::note
-Make Sure `Inline Mode` is turned on, Bot is added in `LOG_CHANNEL` and can send messages there
-:::
-
----
-
-### HEROKU_API & HEROKU_APP_NAME
-
-`HEROKU_API` & `HEROKU_APP_NAME` is required so that you can update/restart Ultroid or check dyno usage wasily with Ultroid
-
-* __HEROKU_API :__ Sign in to your Heroku Account and go to [Account Settings](https://dashboard.heroku.com/account) , Scroll down and you will find your API Key 
-* __HEROKU_APP_NAME :__ The app name you gave while deploying Ultroid
-
----
-
 ### ADDONS
 
 __Type :__ `Boolean` __Default :__ `True`
