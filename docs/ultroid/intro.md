@@ -39,6 +39,9 @@ Currently We Have 13 Language Support , Will add More Soon 😁😁.
 
 ### 8. Some Cool Features
 
-  
+
+### 9. py-Ultroid
+
+We have managed to pack the core into a pip package, Check it out [py-Ultroid](https://pypi.org/project/py-Ultroid/)
 
 
