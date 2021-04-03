@@ -4,6 +4,9 @@ title: Redis Variables used By Ultroid
 sidebar_label: Redis Variables
 ---
 
+Ultroid stores most of the Variables in Redis database. You can play with Redis DB with the redis plugin available in Ultroid Plugins.
+
+
 ### ALIVE_PIC
 
 This Variable used to store `alive` message media , You can set `direct url` or `bot file api id`
@@ -16,7 +19,7 @@ Stores text to show in `alive` command
 
 Value Type : `Boolean`
 
-If `AUTOAPPROVE` is set to True then it will automatically approve users in PM if you send any msg to user . Else if set `False` , you need to approve user manually
+If `AUTOAPPROVE` is set to `True` then it will automatically approve users in PM if you send any msg to user . Else if set `False` , you need to approve user manually
 
 ### HNDLR
 
