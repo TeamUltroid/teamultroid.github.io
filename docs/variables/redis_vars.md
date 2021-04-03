@@ -7,6 +7,16 @@ sidebar_label: Redis Variables
 Ultroid stores most of the Variables in Redis database. You can play with Redis DB with the redis plugin available in Ultroid Plugins.
 
 
+### Language
+
+Available Languages: `English` `Indonesian` `Sinhala` `Arabic` `Hindi`  `Bengoli`
+`Marathi` `Chinese` `Portuguese-Brazilian` `Malyalam` `Tamil` `Gujrati`
+
+Default: `English`
+
+How to setup: After Deploying Go to Ur assistant bot(The bot which u created in @BotFather) and do /start.
+Then click on `LANGUAGE` Button and choose what u want.
+
 ### ALIVE_PIC
 
 This Variable used to store `alive` message media , You can set `direct url` or `bot file api id`
@@ -45,6 +55,3 @@ It stores the list of approved users of PM Permit
 
 This variable stores the list of SUDO User's ids
 
-### language
-
-Stores the default language for Ultroid
