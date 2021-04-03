@@ -47,18 +47,6 @@ Make Sure `Inline Mode` is turned on, Bot is added in `LOG_CHANNEL` and can send
 
 ---
 
-### LOG_CHANNEL
-
-Log Channel is required for storing Ultroid Logs
-
-- Create a PRIVATE GROUP
-- Add @MissRose_bot and your [assistant bot](#bot_username--bot_token)
-- send Command `/id`
-
-Rose will Reply you with an ID , This can be used  for `LOG_CHANNEL` . You can remove Rose bot from there .
-
----
-
 ### HEROKU_API & HEROKU_APP_NAME
 
 `HEROKU_API` & `HEROKU_APP_NAME` is required so that you can update/restart Ultroid or check dyno usage wasily with Ultroid
