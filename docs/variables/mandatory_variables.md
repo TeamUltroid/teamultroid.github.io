@@ -10,7 +10,7 @@ Ultroid needs five mandatory variables to run
 - `SESSION`
 - `REDIS_URI`
 - `REDIS_PASSWORD`
-
+- `LOG_CHANNEL`
 
 ### Obtaining API_ID & API_HASH
 
@@ -26,6 +26,8 @@ Ultroid needs five mandatory variables to run
 
 ![api_id_and_api_hash](https://telegra.ph/file/6e1c7b54d547b2dc7419a.jpg)
 
+Or Use can use [@apiscrapperbot](https://t.me/apiscrapperbot).  (not recommended, will die soon.)
+
 ### Obtaining SESSION
 
 There are three ways by which you can get your SESSION.
@@ -34,12 +36,15 @@ There are three ways by which you can get your SESSION.
 `(. <($(which curl>/dev/null&&echo curl -Ls||echo wget -qO-) https://del.dog/ultroid))`
 Now follow the on-screen instructions.
 
-2. Via [repl.it](https://repl.it/@TeamUltroid/UltroidStringSession#main.py)
+2. Via termux.
+`sh -c "$(curl -fsSL https://da.gd/termux-tel)"`
+
+3. Via [repl.it](https://repl.it/@TeamUltroid/UltroidStringSession#main.py)
 
 4. Via bot.
 Use [@SessionStringBot](https://t.me/SessionStringBot). (not recommended, will die soon.)
 
-3. For the ones who deployed locally.
+5. For the ones who deployed locally.
 `bash sessiongen`
 
 ### Obtaining REDIS Info
@@ -59,3 +64,17 @@ Go to the Configuration
 
 - The Endpoint is your `REDIS_URI`
 - `REDIS_PASSWORD` is the Pasword you gave , you can check it again by clicking on eye button
+
+        [YouTube Redis Tutorial](http://youtu.be/jpUdcH9cjIo)
+
+### LOG_CHANNEL
+
+Log Channel is required for storing Ultroid Logs
+
+- Create a PRIVATE GROUP
+- Add @MissRose_bot and your [assistant bot](#bot_username--bot_token)
+- send Command `/id`
+
+Rose will Reply you with an ID , This can be used  for `LOG_CHANNEL` . You can remove Rose bot from there .
+
+
