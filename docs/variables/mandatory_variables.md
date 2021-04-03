@@ -65,7 +65,7 @@ Go to the Configuration
 - The Endpoint is your `REDIS_URI`
 - `REDIS_PASSWORD` is the Pasword you gave , you can check it again by clicking on eye button
 
-        [YouTube Redis Tutorial](http://youtu.be/jpUdcH9cjIo)
+[YouTube Redis Tutorial](http://youtu.be/jpUdcH9cjIo)
 
 ### LOG_CHANNEL
 
