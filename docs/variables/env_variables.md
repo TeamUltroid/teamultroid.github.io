@@ -1,7 +1,7 @@
 ---
-id: mandatory_variables
-title: Mandatory variables to run Ultroid.
-sidebar_label: Mandatory Variables
+id: env_variables
+title: Environmental Variables to run Ultroid.
+sidebar_label: ENV Variables
 ---
 Ultroid needs eight mandatory variables to run
 
@@ -69,16 +69,6 @@ Go to the Configuration
 
 [YouTube Redis Tutorial](http://youtu.be/jpUdcH9cjIo)
 
-### LOG_CHANNEL
-
-Log Channel is required for storing Ultroid Logs
-
-- Create a PRIVATE GROUP
-- Add @MissRose_bot and your [assistant bot](#bot_username--bot_token)
-- send Command `/id`
-
-Rose will Reply you with an ID , This can be used  for `LOG_CHANNEL` . You can remove Rose bot from there .
-
 ### BOT_USERNAME & BOT_TOKEN
 
 A Telegram bot is required by Ultroid for various resons like - helpmenu .
@@ -100,7 +90,18 @@ Make Sure `Inline Mode` is turned on, Bot is added in `LOG_CHANNEL` and can send
 
 ---
 
-Mandatory If only u deploying on Heroku.
+### LOG_CHANNEL
+
+Log Channel is required for storing Ultroid Logs
+
+- Create a PRIVATE GROUP
+- Add @MissRose_bot and your [assistant bot](#bot_username--bot_token)
+- send Command `/id`
+
+Rose will Reply you with an ID , This can be used  for `LOG_CHANNEL` . You can remove Rose bot from there .
+
+
+## Mandatory Vars for Heroku Users : 
 
 - `HEROKU_APP_NAME`
 - `HEROKU_API`

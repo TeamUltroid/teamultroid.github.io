@@ -1,5 +1,5 @@
 ---
-id: soon
+id: pyUltroid
 title: pyUltroid
 sidebar: pyUltroid
 slug: /pyUltroid
