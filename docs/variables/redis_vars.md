@@ -21,11 +21,31 @@ Value Type : `Boolean`
 
 If `AUTOAPPROVE` is set to `True` then it will automatically approve users in PM if you send any msg to user . Else if set `False` , you need to approve user manually
 
+### BOT_USERS
+
+List of users who sent `/start` your assitant bot
+
+### BROADCAST
+
+List of chats for broadcast feature
+
+### EMOJI_IN_HELP
+
+In the inline help menu, every button text is wrapped inside an emoji . To change the default one , set this variable with your desired Emoji/Text/ASCII Icon.
+
 ### HNDLR
 
 Default : `.`
 
 You can change command handler prefix using this variable.
+
+### I_DEV
+
+By default Ultroid users can't use commands like `bash` & `eval` . If you wan't to use these commands then set value `True`
+
+### OWNER
+
+Stores Ultroid users telegram user id
 
 ### PMSETTING
 
@@ -41,9 +61,21 @@ You can customize PM Permit default media using this variable . You can store di
 
 It stores the list of approved users of PM Permit
 
+### RMBG_API
+
+Stores API key of remove.bg
+
 ### SUDOS 
 
 This variable stores the list of SUDO User's ids
+
+### VC_SUDOS
+
+Used to store SUDO Users of VC Bot
+
+### VC_SESSION
+
+Stores the telethon `session` for the VC Bot alt ID, Using same account may result `AuthDuplicated` error .
 
 ### language
 
