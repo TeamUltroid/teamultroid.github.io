@@ -16,8 +16,8 @@ module.exports = {
       "type": "category",
       "label": "Variables",
       "items": [
-        "variables/mandatory_variables",
-        "variables/all_variables"
+        "variables/env_variables",
+        "variables/redis_vars"
       ]
     },
     {
@@ -25,8 +25,8 @@ module.exports = {
       "id": "guides/index"
     },
     {
-      "type": "ref",
-      "id": "pyUltroid/soon"
+      "type": "doc",
+      "id": "pyUltroid/pyUltroid"
     }
   ]
 };
