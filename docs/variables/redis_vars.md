@@ -7,44 +7,58 @@ sidebar_label: Redis Variables
 Ultroid stores most of the Variables in Redis database. You can play with Redis DB with the redis plugin available in Ultroid Plugins.
 
 
-### Language
+### ALIVE_PIC
 
-Available Languages: `English` `Indonesian` `Sinhala` `Arabic` `Bengali`
-`Marathi` `Chinese` `Portuguese-Brazilian` `Malyalam` `Tamil` `Gujrati`
+This Variable used to store `alive` message media , You can set `direct url` or `bot file api id`
 
-Default: `English`
+### ALIVE_TEXT
 
-How to setup: After Deploying Go to Ur assistant bot(The bot which u created in @BotFather) and do /start.
-Then click on `LANGUAGE` Button and choose what u want.
+Stores text to show in `alive` command
 
-### PMBOT
+### AUTOAPPROVE
 
-Type : `Boolean` Default : `False`
+Value Type : `Boolean`
 
-If set `True`, messeges sent to your Assistant Bot will be forwarded to you And By replying to it u can chat with them. [Example](https://t.me/UltroidUpdates/2)
+If `AUTOAPPROVE` is set to `True` then it will automatically approve users in PM if you send any msg to user . Else if set `False` , you need to approve user manually
 
-### All Things
+### HNDLR
 
-No Need To Add All Things Manually You Just need to Go to ur assistant bot.
+Default : `.`
 
-Then Do `/start` , Then Click `Settings` Button.
+You can change command handler prefix using this variable.
 
-- There you Find `API_KEY` `PMPERMIT` `FEATURES` `ALIVE` Button.
+### PMSETTING
 
-- - `PMPERMIT`   
-     There you can On/off Pmpermit and By clicking `customize` Button you can Do many things.    
-         `PM TEXT` : The Text Which you want to show when someone unknown message you.   
-         `PM MEDIA` : The media Which you want to show when someone unknown message you.   
-         `PM LOGGER` : Forward All Private messages in your LOG_CHANNEL.   
-         `AUTO APPROVE` : Auto Approve Users when U Message.   
-         `SET WARNS` : Number Of messages A unknown Person Can send u.   
+Default : `False`
 
-- - `Features`
-     There you can find Buttons For Exciting Features.   
-         `Extra Plugins` :   
-         `Handler` :   
-         `Addons` :   
-         `Tag Logger` :   
-         `Set Gdrive` :   
-         `Sudo Mode` :   
-         `Super Fban` :   
+This variable is used to toggle `PMPERMIT` . PM PERMIT is on when value is set to `True`
+
+### PMPIC
+
+You can customize PM Permit default media using this variable . You can store direct links or file id to customize media.
+
+### PMPERMIT
+
+It stores the list of approved users of PM Permit
+
+### SUDOS 
+
+This variable stores the list of SUDO User's ids
+
+### language
+
+Stores the default language for Ultroid.
+
+- Arabic - `ar`
+- Bengali - `bn`
+- Brazilian Portuguese - `pt-br`
+- Chinese - `cn`
+- English - `en` (default)
+- Gujarati - `gu`
+- Hindi - `hi`
+- Indonesian - `id`
+- Malayalam - `ml`
+- Marathi - `mr`
+- Odia - `od`
+- Sinhala - `si`
+- Tamil - `tl`
