@@ -37,8 +37,8 @@ To work everywhere
 @ultroid_cmd(
     pattern="start",
 )   
-async def _(e):   
-    await eor(e, "Ultroid Started")   
+async def _(event):   
+    await eor(event, "Ultroid Started")   
 ```
 
 To work only in groups
@@ -48,16 +48,18 @@ To work only in groups
     pattern="start",
     groups_only=True,
 )   
-async def _(e):   
-    await eor(e, "Ultroid Started")   
+async def for_group_only_example(event):
+    # Edits the message
+    await eor(event, "Ultroid Started")   
 ```
 
 Assistant Plugins 👇
 
 ```python
 @asst_cmd("start")   
-async def _(e):   
-    await e.reply("Ultroid Started")   
+async def assistant_start(event):
+    # Reply To The Messgae
+    await event.reply("Ultroid Started")   
 ```
 
 ---
