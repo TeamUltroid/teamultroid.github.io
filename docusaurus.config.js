@@ -28,7 +28,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        // { to: 'docs/pyUltroid', label: 'pyUltroid', position: 'left' },
+        { to: 'session-gen', label: 'Session-Gen', position: 'left' },
         {
           href: 'https://github.com/TeamUltroid/Ultroid',
           label: 'GitHub',
