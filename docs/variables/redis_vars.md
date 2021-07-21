@@ -61,6 +61,12 @@ You can customize PM Permit default media using this variable . You can store di
 
 It stores the list of approved users of PM Permit
 
+### INLINE_PM
+
+Default : `True`
+
+Whether PmPermit should be send by Inline. Set to `False` to use Static One.
+
 ### RMBG_API
 
 Stores API key of remove.bg
@@ -75,7 +81,7 @@ Used to store SUDO Users of VC Bot
 
 ### VC_SESSION
 
-Stores the pyrogram `session` for the VC Bot alt ID, Using same account may result `AuthDuplicated` error .
+Stores the pyrogram `session` for the VC Bot alt ID, Using telethon session can cause Error.
 
 ### language
 
