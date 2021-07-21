@@ -75,7 +75,7 @@ Used to store SUDO Users of VC Bot
 
 ### VC_SESSION
 
-Stores the telethon `session` for the VC Bot alt ID, Using same account may result `AuthDuplicated` error .
+Stores the pyrogram `session` for the VC Bot alt ID, Using same account may result `AuthDuplicated` error .
 
 ### language
 
@@ -92,5 +92,7 @@ Stores the default language for Ultroid.
 - Malayalam - `ml`
 - Marathi - `mr`
 - Odia - `od`
+- Russian - `ru`
 - Sinhala - `si`
 - Tamil - `tl`
+- Turkish - `tr`
