@@ -79,4 +79,3 @@ Go to the Configuration
 * __HEROKU_API :__ Sign in to your Heroku Account and go to [Account Settings](https://dashboard.heroku.com/account) , Scroll down and you will find your API Key 
 * __HEROKU_APP_NAME :__ The app name you gave while deploying Ultroid
 
-
