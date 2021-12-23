@@ -32,7 +32,7 @@ module.exports = {
       "type":"category",
       "label":"Contributing",
       "items":[
-         "contributing/plugins",
+         "contributing/userplugins",
          "contributing/translate"
        ]
     }
