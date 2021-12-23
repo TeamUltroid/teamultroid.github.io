@@ -32,8 +32,8 @@ module.exports = {
       "type":"category",
       "label":"Contributing",
       "items":[
-         "contributing/plugins.mdx",
-         "contributing/translate.md"
+         "contributing/plugins",
+         "contributing/translate"
        ]
     }
   ]
