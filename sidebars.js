@@ -27,6 +27,14 @@ module.exports = {
     {
       "type": "doc",
       "id": "pyUltroid/pyUltroid"
+    },
+    {
+      "type":"category",
+      "label":"Contributing",
+      "items":[
+         "contributing/plugins.mdx",
+         "contributing/translate.md"
+       ]
     }
   ]
 };
