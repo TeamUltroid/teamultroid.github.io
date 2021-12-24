@@ -29,6 +29,10 @@ module.exports = {
       "id": "pyUltroid/pyUltroid"
     },
     {
+      "type": "doc",
+      "id": "VCBot/vcguide"
+    },
+    {
       "type":"category",
       "label":"Contributing",
       "items":[
