@@ -24,7 +24,8 @@ This page contain present information about setting up Vc with Ultroid.
 <details>
 <summary>About <code>VC_SESSION</code></summary>
 <code>VC_SESSION</code> is Database key used for storing String Session of another account which should be used for Vc Purpose. If not present, User's account will be used.
-<br><details><summary>Adding <code>VC_SESSION</code></summary>
+
+<details><summary>Adding <code>VC_SESSION</code></summary>
 To Add <code>VC_SESSION</code>, First Go to ur Assistant Bot
 
 - Send: /start
@@ -40,10 +41,15 @@ To Add <code>VC_SESSION</code>, First Go to ur Assistant Bot
 • Done Your `VC_SESSION` is added 😉
 
 </details>
+
+
 :::tip
 Your VC Session should be of Another ID else you won't be able to hear from same account.
 :::
+
+
 </details>
+
 <details>
 <summary>Knowing <B>VcBot Commands</B></summary>
 <div>You can know VcBot Commands through two ways (after setting up VcBot).</div>
