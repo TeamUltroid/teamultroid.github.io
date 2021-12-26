@@ -58,6 +58,10 @@ module.exports = {
             {
               label: 'Telegram',
               href: 'https://telegram.dog/UltroidSupport',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/TheUltroid',
             }
           ],
         },
