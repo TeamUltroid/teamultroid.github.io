@@ -5,6 +5,7 @@ sidebar: VC Bot
 slug: /vcbot
 ---
 
+
 ---
 
 From the addition of Vc in Telegram, along with the time Ultroid have evolved many times, changing the Library used and programming language.
