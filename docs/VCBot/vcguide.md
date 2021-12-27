@@ -4,6 +4,7 @@ title: VC Bot
 sidebar: VC Bot
 slug: /vcbot
 ---
+
 ---
 
 From the addition of Vc in Telegram, along with the time Ultroid have evolved many times, changing the Library used and programming language.
@@ -26,6 +27,7 @@ This page contain present information about setting up Vc with Ultroid.
 `VC_SESSION` is Database key used for storing String Session of another account which should be used for Vc Purpose. If not present, User's account will be used.
 
 ### Adding `VC_SESSION`
+
 To Add `VC_SESSION`, First Go to ur Assistant Bot
 
 - Send: `/start`
@@ -35,23 +37,26 @@ To Add `VC_SESSION`, First Go to ur Assistant Bot
 
 :::info
 Shortcut :
+
 - `.setdb VC_SESSION <session>`
 - Restart your bot using `.restart`.
-:::
-
+  :::
 
 • Done Your `VC_SESSION` is added 😉
 
 </details>
+
 </ol></details>
 
 :::note
 Your VC Session should be of Another ID else you won't be able to hear from same account.
 :::
 
-
 #### Knowing **VcBot Commands**
+
 You can know VcBot Commands through two ways (after setting up VcBot).
+
 - Send `.help` -> `VcBot` -> `Explore plugins`.
 - Send `.vchelp` to your Vc Account.
+
 ---
