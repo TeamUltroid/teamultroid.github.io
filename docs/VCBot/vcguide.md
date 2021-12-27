@@ -48,9 +48,11 @@ Shortcut :
 
 </ol></details>
 
+
 :::note
 Your VC Session should be of Another ID else you won't be able to hear from same account.
 :::
+
 
 #### Knowing **VcBot Commands**
 
