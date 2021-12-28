@@ -14,16 +14,16 @@ A stable userbot base library, based on Telethon.
 `pip install py-Ultroid`
 
 ## Usage
-=> Create folders named `plugins`, `addons`, `assistant` and `resources`.<br/>
-=> Add your plugins in the `plugins` folder and others accordingly.<br/>
+=> Create folders named `plugins`, `addons`, `assistant` and `resources`.  
+=> Add your plugins in the `plugins` folder and others accordingly.  
 => Create a `.env` file with
 - `API_ID`
 - `API_HASH`
 - `SESSION`
 - `REDIS_URI`
-- `REDIS_PASSWORD` as mandatory environment variables.
-=> Check [`.env.sample`](https://github.com/TeamUltroid/Ultroid/blob/main/.env.sample) for more details.<br/>
-=> Run `python -m pyUltroid` to start the bot.<br/>
+- `REDIS_PASSWORD` as mandatory environment variables.  
+=> Check [`.env.sample`](https://github.com/TeamUltroid/Ultroid/blob/main/.env.sample) for more details.  
+=> Run `python -m pyUltroid` to start the bot.  
 
 ### Creating plugins
 To work everywhere
@@ -33,7 +33,7 @@ To work everywhere
     pattern="start",
 )   
 async def _(event):   
-    await eor(event, "Ultroid Started")   
+    await event.eor("Ultroid Started")   
 ```
 
 To work only in groups
