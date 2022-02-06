@@ -48,7 +48,7 @@ module.exports = {
             },
             {
               label: 'pyUltroid',
-              to: 'docs/pyUltroid',
+              to: 'docs/pyUltroid/pyUltroid',
             },
           ],
         },
