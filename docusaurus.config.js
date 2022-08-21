@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Ultroid, a pluggable telegram userbot, made in python using Telethon!',
   url: 'https://www.ultroid.tech',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/u.png',
   organizationName: 'TeamUltroid',
@@ -30,7 +30,7 @@ module.exports = {
         },
         {
           to: 'changelog/',
-          activeBasePath: 'changelog',
+          activeBasePath: 'changelog/',
           label: 'Changelog',
           position: 'left',
         },
@@ -78,6 +78,10 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/TeamUltroid/Ultroid',
             },
+            {
+              label: "Url Shortener",
+              href: "https://tiny.ultroid.tech"
+            }
           ],
         },
       ],
