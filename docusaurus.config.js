@@ -28,6 +28,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        {
+          to: 'changelog/',
+          activeBasePath: 'changelog',
+          label: 'Changelog',
+          position: 'left',
+        },
         // { to: 'session-gen', label: 'Session-Gen', position: 'left' },
         {
           href: 'https://github.com/TeamUltroid/Ultroid',
@@ -57,7 +63,7 @@ module.exports = {
           items: [
             {
               label: 'Telegram',
-              href: 'https://telegram.dog/UltroidSupport',
+              href: 'https://telegram.dog/UltroidSupportChat',
             },
             {
               label: 'Twitter',
