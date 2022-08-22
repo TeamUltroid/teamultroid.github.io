@@ -79,7 +79,7 @@ module.exports = {
               href: 'https://github.com/TeamUltroid/Ultroid',
             },
             {
-              label: "Url Shortener",
+              label: "URL Shortener",
               href: "https://tiny.ultroid.tech"
             }
           ],
