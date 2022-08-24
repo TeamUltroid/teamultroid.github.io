@@ -1,5 +1,8 @@
+import React from "react";
+import {Redirect} from "@docusaurus/router";
+
 function Test() {
-    window.location.href += "v0.7";
+    return <Redirect to="/changelog/v0.7" />
 }
 
 export default Test;
