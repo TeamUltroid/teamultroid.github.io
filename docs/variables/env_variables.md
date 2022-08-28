@@ -1,7 +1,7 @@
 ---
-id: mandatory_variables
-title: Mandatory variables to run Ultroid.
-sidebar_label: Mandatory Variables
+id: env_variables
+title: Environmental Variables to run Ultroid.
+sidebar_label: ENV Variables
 ---
 Ultroid needs five mandatory variables to run
 
@@ -11,11 +11,10 @@ Ultroid needs five mandatory variables to run
 - `REDIS_URI`
 - `REDIS_PASSWORD`
 
-
 ### Obtaining API_ID & API_HASH
 
 1. Visit [my.telegram.org](https://my.telegram.org)
-2. Enter your phone number in [international format](https://telegram.org/faq#login-and-sms). Example : `+9199966XYYYY`
+2. Enter your phone number in [international format](https://telegram.org/faq#login-and-sms). Example : `+9199966XXXXX`
 3. Enter the web login code sent to you by Telegram in app.
 4. After successful sign in , Click on `API development tools`
 5. Fill `App Title` & `Short name` and create app.
@@ -26,20 +25,25 @@ Ultroid needs five mandatory variables to run
 
 ![api_id_and_api_hash](https://telegra.ph/file/6e1c7b54d547b2dc7419a.jpg)
 
+Or Use can use [@apiscrapperbot](https://t.me/apiscrapperbot).  (running on free servers.)
+
 ### Obtaining SESSION
 
-There are three ways by which you can get your SESSION.
+There are below ways by which you can get your SESSION.
 
 1. Via terminal.
 `(. <($(which curl>/dev/null&&echo curl -Ls||echo wget -qO-) https://del.dog/ultroid))`
 Now follow the on-screen instructions.
 
-2. Via [repl.it](https://repl.it/@TeamUltroid/UltroidStringSession#main.py)
+2. Via termux.
+`sh -c "$(curl -fsSL https://git.io/JqgsR)"`
 
-4. Via bot.
-Use [@SessionStringBot](https://t.me/SessionStringBot). (not recommended, will die soon.)
+3. Via [Repl.it](https://repl.it/@TeamUltroid/UltroidStringSession#main.py)
 
-3. For the ones who deployed locally.
+4. Via Telegram Bot.
+Use [@SessionGeneratorBot](https://t.me/SessionGeneratorBot).
+
+5. For the ones who deployed locally.
 `bash sessiongen`
 
 ### Obtaining REDIS Info
@@ -59,3 +63,19 @@ Go to the Configuration
 
 - The Endpoint is your `REDIS_URI`
 - `REDIS_PASSWORD` is the Pasword you gave , you can check it again by clicking on eye button
+
+[YouTube Redis Tutorial](http://youtu.be/jpUdcH9cjIo)
+
+
+## Mandatory Vars for Heroku Users : 
+
+- `HEROKU_APP_NAME`
+- `HEROKU_API`
+
+### HEROKU_API & HEROKU_APP_NAME
+
+`HEROKU_API` & `HEROKU_APP_NAME` is required so that you can update/restart Ultroid or check dyno usage wasily with Ultroid
+
+* __HEROKU_API :__ Sign in to your Heroku Account and go to [Account Settings](https://dashboard.heroku.com/account) , Scroll down and you will find your API Key 
+* __HEROKU_APP_NAME :__ The app name you gave while deploying Ultroid
+

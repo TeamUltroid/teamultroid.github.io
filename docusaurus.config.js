@@ -1,14 +1,20 @@
 module.exports = {
   title: 'Ultroid',
   tagline: 'Ultroid, a pluggable telegram userbot, made in python using Telethon!',
-  url: 'https://teamultroid.github.io',
+  url: 'https://www.ultroid.tech',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/u.png',
   organizationName: 'TeamUltroid',
   projectName: 'teamultroid.github.io',
   themeConfig: {
+    metadatas: [{ name: 'yandex-verification', content: 'b8291c7f76165c9d' }],
+    colorMode: {
+      defaultMode: 'dark',
+      respectPrefersColorScheme: false,
+    },
+    image: 'img/metalogo.jpg',
     navbar: {
       title: 'Ultroid',
       logo: {
@@ -22,7 +28,13 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        // {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'changelog/',
+          activeBasePath: 'changelog/',
+          label: 'Changelog',
+          position: 'left',
+        },
+        // { to: 'session-gen', label: 'Session-Gen', position: 'left' },
         {
           href: 'https://github.com/TeamUltroid/Ultroid',
           label: 'GitHub',
@@ -39,7 +51,11 @@ module.exports = {
             {
               label: 'Documentation',
               to: 'docs/',
-            }
+            },
+            {
+              label: 'pyUltroid',
+              to: 'docs/pyUltroid/pyUltroid',
+            },
           ],
         },
         {
@@ -47,25 +63,29 @@ module.exports = {
           items: [
             {
               label: 'Telegram',
-              href: 'https://telegram.dog/UltroidSupport',
+              href: 'https://telegram.dog/UltroidSupportChat',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/TheUltroid',
             }
           ],
         },
         {
           title: 'More',
           items: [
-            // {
-            //   label: 'Blog',
-            //   to: 'blog',
-            // },
             {
               label: 'GitHub',
               href: 'https://github.com/TeamUltroid/Ultroid',
             },
+            {
+              label: "URL Shortener",
+              href: "https://tiny.ultroid.tech"
+            }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Team Ultroid, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/TeamUltroid" target="_blank">Team Ultroid</a>, Inc.`,
     },
   },
   presets: [
@@ -74,12 +94,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

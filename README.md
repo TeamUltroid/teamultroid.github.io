@@ -1,33 +1,18 @@
-# Website
+# Ultroid Documention
+- Ultroid-Docs are hosted at [ultroid.tech](https://ultroid.tech)
+- Ultroid Source Code is available at [TeamUltroid/Ultroid](https://GitHub.com/TeamUltroid/Ultroid)
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+# [![Website](https://img.shields.io/website?down_color=red&down_message=Down&label=ultroid.tech%20%20%20%20%20&up_message=Online&url=https%3A%2F%2Fultroid.tech) ![GitHub labels](https://img.shields.io/github/labels/TeamUltroid/Ultroid-Docs/Help%20Wanted?color=black) ![GitHub forks](https://img.shields.io/github/forks/TeamUltroid/Ultroid-Docs)](#)
 
-## Installation
+### - Key Features to Include
+- About Ultroid and Deployment.
+- List of available feature in Ultroid.
+- Detail about setup and available variables.
+- Make things easier to understand.
 
-```console
-yarn install
-```
+### - Contributing
+- Fork this repository. [[Read how to fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)]
+- Now, you can do your relevant changes.
+- Create a pull request to this repo. [[Creating a Pull Request](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request#creating-a-pull-request)]
 
-## Local Development
-
-```console
-yarn start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### [TeamUltroid](https://t.me/TeamUltroid)
