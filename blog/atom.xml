@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.ultroid.tech/blog</id>
+    <title>Ultroid Blog</title>
+    <updated>2019-05-30T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.ultroid.tech/blog"/>
+    <subtitle>Ultroid Blog</subtitle>
+    <icon>https://www.ultroid.tech/img/u.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://www.ultroid.tech/blog/welcome"/>
+        <updated>2019-05-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello]]></title>
+        <id>hello-world</id>
+        <link href="https://www.ultroid.tech/blog/hello-world"/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ultroid]]></title>
+        <id>Ultroid</id>
+        <link href="https://www.ultroid.tech/blog/Ultroid"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+    </entry>
+</feed>
