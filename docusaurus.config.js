@@ -98,14 +98,11 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-DF813CEEN9',
+          anonymizeIP: true,
+        }
       },
-    ],
-    [
-      '@docusaurus/plugin-google-gtag',
-      {
-        trackingID: 'G-DF813CEEN9',
-        anonymizeIP: true,
-      }
     ],
   ],
 };
