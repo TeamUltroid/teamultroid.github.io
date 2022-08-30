@@ -6,19 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
-import { initializeApp } from "firebase/app";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyC3wSCufcJRRQoxZ-n8ULmuKdvnIgf3_gw",
-  projectId: "ultroiddocs",
-  messagingSenderId: "452486402474",
-  appId: "1:452486402474:web:59236c0ec4bbff3f9e9bd3",
-  measurementId: "G-DF813CEEN9"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
 const features = [
   {
     title: 'Built From Scratch',
