@@ -47,18 +47,18 @@ const features = [
       {
         label: 'arm64',
         size: '32.00 MB',
-        href: 'https://github.com/TeamUltroid/Ultroid-Termux/actions/runs/15388843112/artifacts/3239846749'
+        href: 'https://github.com/TeamUltroid/Ultroid-Termux/releases/download/v0.118.0%2Bc579131-apt-android-7-github-debug/termux-app_v0.118.0+c579131-apt-android-7-github-debug_arm64-v8a.apk'
       },
       {
         label: 'armeabi',
         size: '30.20 MB',
-        href: 'https://github.com/TeamUltroid/Ultroid-Termux/actions/runs/15388843112/artifacts/3239846987'
+        href: 'https://github.com/TeamUltroid/Ultroid-Termux/releases/download/v0.118.0%2Bc579131-apt-android-7-github-debug/termux-app_v0.118.0+c579131-apt-android-7-github-debug_armeabi-v7a.apk'
       },
       {
         label: 'universal',
         size: '107.0 MB',
-        href: 'https://github.com/TeamUltroid/Ultroid-Termux/actions/runs/15388843112/artifacts/3239846486'
-      },
+        href: 'https://github.com/TeamUltroid/Ultroid-Termux/releases/download/v0.118.0%2Bc579131-apt-android-7-github-debug/termux-app_v0.118.0+c579131-apt-android-7-github-debug_universal.apk'
+      }
     ],
 
   },
