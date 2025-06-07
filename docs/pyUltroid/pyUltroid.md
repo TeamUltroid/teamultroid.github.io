@@ -1,5 +1,3 @@
-# py-Ultroid Library
-
 Core library of [The Ultroid](https://github.com/TeamUltroid/pyUltroid), a python based telegram userbot.
 
 [![CodeFactor](https://www.codefactor.io/repository/github/teamultroid/pyultroid/badge)](https://www.codefactor.io/repository/github/teamultroid/pyultroid)
@@ -9,13 +7,8 @@ Core library of [The Ultroid](https://github.com/TeamUltroid/pyUltroid), a pytho
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TeamUltroid/Ultroid)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
-# Installation
-```bash
-pip3 install -U py-Ultroid
-```
-
 # Documentation 
-[![Documentation](https://img.shields.io/badge/Documentation-Ultroid-blue)](https://ultroid.tech/)
+[![Documentation](https://img.shields.io/badge/Documentation-Ultroid-blue)](https://ultroid.org/)
 
 # Usage
 - Create folders named `plugins`, `addons`, `assistant` and `resources`.   

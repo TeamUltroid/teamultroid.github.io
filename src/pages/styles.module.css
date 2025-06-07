@@ -217,3 +217,70 @@ input:focus {
 .rotated {
   transform: rotate(180deg);
 }
+
+/* Sponsor Card Styles */
+.sponsorCard {
+  display: flex;
+  background-color: var(--ifm-card-background-color);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+}
+
+.sponsorCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.sponsorImageWrapper {
+  flex: 0 0 200px; /* Do not grow, do not shrink, base width 200px */
+  margin-right: 2rem;
+}
+
+.sponsorImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sponsorContent {
+  flex: 1;
+  text-align: left;
+}
+
+.sponsorContent h3 {
+  font-size: 2rem;
+  margin-top: 0;
+  color: var(--ifm-color-primary);
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .sponsorCard {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sponsorImageWrapper {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+    width: 150px; /* Smaller image on mobile */
+  }
+
+  .sponsorContent {
+    text-align: center;
+  }
+
+  .buttonRow {
+    justify-content: center;
+  }
+}

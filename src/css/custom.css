@@ -23,3 +23,26 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+/* Sponsor Button Custom Style */
+.navbar__link[href*="github.com/sponsors/TeamUltroid"] {
+  background: var(--ifm-color-primary);
+  color: #232B2B !important;
+  border-radius: 1em;
+  box-shadow: 0 4px 16px rgba(37, 194, 160, 0.15);
+  padding: 0.2em 1.5em;
+  font-weight: 600;
+  transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+  margin-right: 2em;
+  margin-left: 0.5em;
+  border: none;
+  display: inline-block;
+}
+
+.navbar__link[href*="github.com/sponsors/TeamUltroid"]:hover,
+.navbar__link[href*="github.com/sponsors/TeamUltroid"]:focus {
+  background: var(--ifm-color-primary-dark);
+  color: #fff !important;
+  box-shadow: 0 8px 24px rgba(37, 194, 160, 0.25);
+  text-decoration: none;
+}
