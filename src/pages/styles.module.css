@@ -63,3 +63,157 @@ button {
 input:focus {
   border: 2.5px solid var(--ifm-color-primary) !important;
 }
+
+/* ------------------------------
+   Termux Download Wrapper
+-------------------------------- */
+.termuxDownloadWrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-start; 
+  width: 100%;
+  margin-top: 1em;
+}
+
+
+/* ------------------------------
+   Download Button Styling
+-------------------------------- */
+.downloadButton {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  font-size: 1.25rem;
+  padding: 0.75em 2em;
+  width: 100%; /* respect container width */
+  border-radius: 12px;
+  height: auto;
+  text-align: center;
+  box-sizing: border-box;
+
+  background-color: var(--ifm-color-primary); 
+  color: #232B2B;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.downloadButton:hover {
+  transform: scale(1.07);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ------------------------------
+   Dropdown Menu Styling
+-------------------------------- */
+.termuxDropdownMenu {
+  list-style: none;
+  margin: 0;
+  padding: 0.75em 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  font-size: 1.1rem;
+
+  max-height: none;
+  overflow-y: hidden;
+
+  /* Animation */
+  transform-origin: top;
+  transform: scaleY(0);
+  opacity: 0;
+  transition: transform 0.35s ease-in-out, opacity 0.35s ease-in-out;
+}
+
+/* Dropdown open/close states */
+.termuxDropdownMenu.open {
+  transform: scaleY(1);
+  opacity: 1;
+  overflow-y: auto;
+}
+.termuxDropdownMenu.closed {
+  transform: scaleY(0);
+  opacity: 0;
+  overflow: hidden;
+}
+
+
+/* ------------------------------
+   Dropdown Item Styling
+-------------------------------- */
+.termuxDropdownItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75em 1.5em;
+  color: #000;
+  font-size: medium;
+  text-decoration: none;
+  cursor: pointer;
+
+  font-family: monospace, monospace;
+  white-space: nowrap;
+  border-radius: 4px;
+  transition: background-color 0.25s ease;
+}
+
+.termuxDropdownItem:hover {
+  background-color: #e0f0ff;
+  text-decoration: none;
+}
+
+.termuxDropdownItem.focused {
+  background-color: #d0e0ff;
+}
+
+
+/* ------------------------------
+   Dropdown Item Inner Layout
+-------------------------------- */
+.itemName {
+  flex-grow: 1;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 1em;
+}
+
+.itemSize {
+  flex-shrink: 0;
+  text-align: right;
+  white-space: nowrap;
+  color: #555;
+  font-size: 1rem;
+}
+
+
+.justifyText {
+  text-align: justify;
+  text-justify: inter-word; 
+  hyphens: auto;          
+  line-height: 1.6;     
+  margin-bottom: 1em;  
+}
+
+.downloadArrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+  /* default state */
+  transform: rotate(0deg);
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
