@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkultroid=self.webpackChunkultroid||[]).push([[254],{4905:(t,u,e)=>{e.r(u),e.d(u,{default:()=>s});e(6540);var r=e(6347),n=e(4848);const s=function(){return(0,n.jsx)(r.rd,{to:"/changelog/v0.7"})}}}]);
