@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
   "sidebar": [
     {
       "type": "doc",
@@ -33,12 +34,14 @@ module.exports = {
       "id": "VCBot/vcguide"
     },
     {
-      "type":"category",
-      "label":"Contributing",
-      "items":[
-         "contributing/userplugins",
-         "contributing/translate"
-       ]
+      "type": "category",
+      "label": "Contributing",
+      "items": [
+        "contributing/userplugins",
+        "contributing/translate"
+      ]
     }
   ]
 };
+
+export default sidebars;

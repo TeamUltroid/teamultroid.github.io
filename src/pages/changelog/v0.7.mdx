@@ -2,12 +2,13 @@
 title: v0.7
 ---
 
+import Head from '@docusaurus/Head';
 
-<head>
-<meta property="og:image" content="/img/0.7.png"/>
-<meta property="og:title" content="Changelog"/>
-<meta property="og:description" content="Ultroid v0.7"/>
-</head>
+<Head>
+  <meta property="og:image" content="/img/0.7.png"/>
+  <meta property="og:title" content="Changelog"/>
+  <meta property="og:description" content="Ultroid v0.7"/>
+</Head>
 
 <!---
 import Link from '@docusaurus/Link';
@@ -21,91 +22,71 @@ import styles from '../styles.module.css';
 
 # Ultroid V0.7 Changelog
 
-
 ## 🌟 Highlights
 
-<ul style={{ listStyleType: "🌟 " }}>
-    <li>
-    <b><code>SESSION</code></b> now supports <code>pyrogram string sessions</code>.
-    </li>
-    <li>
-        <details>
-            <summary style={{ listStyleType: "none" }}>
-                An attempt to keep it <b>LightWeight</b> as our first release (expand).
-            </summary>
-            <p>Reduced Requirements and moved non-important plugins to addons.
-                <br />
-                We have observed the startup time of less than 20 secs with just official plugins and addons 🎉. <br />
-                    (startup time may be different as per your usage.)
-            </p>
-        </details>
-    </li>
-    <li>
-        <details open>
-            <summary style={{ listStyleType: "none" }}>Increasing up Localisation
-            </summary>
-            Since Ultroid support multiple languages, Help String and other strings have been added for the <a href="https://github.com/TeamUltroid/Ultroid/tree/main/strings/strings">Translation.</a>
-            <br />
-            They are auto translated using Google service, but fixes are always welcome.
-        </details>
-        </li>
+- **SESSION** now supports `pyrogram string sessions`
 
-</ul>
-<br />
+- **Lightweight Improvements**  
+  Reduced Requirements and moved non-important plugins to addons.
+  We have observed the startup time of less than 20 secs with just official plugins and addons 🎉
+  _(startup time may be different as per your usage)_
+
+- **Enhanced Localization**  
+  Since Ultroid supports multiple languages, Help String and other strings have been added for [Translation](https://github.com/TeamUltroid/Ultroid/tree/main/strings/strings).
+  They are auto-translated using Google service, but fixes are always welcome.
 
 ## 🧑‍💻 Plugin Changes
+
 - `.getmsg` (`.help utilities`)
-- `autocorrect,koo,xdasearch,ncode,omgubuntu,ghfeeds` are now in addons.
-- Setting up `INLINE_PIC` or doesn't need restart anymore.
-- `.promote -f` (`to promote with full/all available rights.`)
-- Set `CUSTOM_THUMBNAIL` to `False`, to disable thumb while uploading.
-- `.mediainfo` now support local file and updated `mediainfo` for images  
-(try to know the change.)
-- `qrcode` now support taking circle image from replied.
-- some more suprising hidden changes.
+- `autocorrect,koo,xdasearch,ncode,omgubuntu,ghfeeds` are now in addons
+- Setting up `INLINE_PIC` doesn't need restart anymore
+- `.promote -f` (to promote with full/all available rights)
+- Set `CUSTOM_THUMBNAIL` to `False` to disable thumb while uploading
+- `.mediainfo` now supports local file and updated `mediainfo` for images  
+  (try to know the change)
+- `qrcode` now supports taking circle image from replied
+- Some more surprising hidden changes
 - `.dl <message_link>`
-<br />
 
 ## 👮 Manager
-- `/kang` now supports video and webm stickers.
 
-<br />
+- `/kang` now supports video and webm stickers
 
 ## 🪁 Addons
-- Winget Search (`.help > Inline plugins > winget`).
 
-<br />
+- Winget Search (`.help > Inline plugins > winget`)
 
 ## 🪲 Bug Fixes
+
 - fakeaction
 - App search
 - yta
-- missing `return` in `logo`.
+- missing `return` in `logo`
 
-<br />
-<details><summary>[ For Plugin Creators. ]</summary>
-<ul>
-<li><code>pyUltroid.functions</code> is now <code>pyUltroid.fns</code>.</li>
-<li>Now there is no seperate development of pyUltroid, it is now merged with <b>TeamUltroid/Ultroid</b> to speed up development.</li>
-</ul>
-</details>
-<br />
+## 📝 For Plugin Creators
+
+- `pyUltroid.functions` is now `pyUltroid.fns`
+- Now there is no separate development of pyUltroid, it is now merged with **TeamUltroid/Ultroid** to speed up development
 
 ## ✖️ Removed plugins
+
 - MegaDL
 
-<br />
-
 ## 🗣️ Language Changes
-- Updated `pt-br` by [igorzbr](https://github.com/TeamUltroid/Ultroid/commits?author=igorzbr), [5H4ND](https://github.com/TeamUltroid/Ultroid/commits?author=5H4ND)
+
+- Updated `pt-br` by [igorzbr](https://github.com/TeamUltroid/Ultroid/commits?author=igorzbr) and [5H4ND](https://github.com/TeamUltroid/Ultroid/commits?author=5H4ND)
 - Added Uzbek language by [Technobladeuzb](https://github.com/TeamUltroid/Ultroid/commits?author=Technobladeuzb)
 
-<br />
-
-<h2>
-<img src="https://img.icons8.com/fluency/48/000000/telegram-app.png" width="50"  style={{ marginTop:"-10px", float: "left", marginRight:"5px" }} />
-<a href="https://t.me/TheUltroid">@TheUltroid</a>
-</h2>
+<div className="telegram-link" style={{ display: 'flex', alignItems: 'center', marginTop: '2rem', gap: '10px' }}>
+  <img 
+    src="https://img.icons8.com/fluency/48/000000/telegram-app.png" 
+    width="40" 
+    alt="Telegram"
+  />
+  <a href="https://t.me/TheUltroid" style={{ fontSize: '1.5rem', textDecoration: 'none' }}>
+    @TheUltroid
+  </a>
+</div>
 
 
 <!--<div className={styles.buttons}>

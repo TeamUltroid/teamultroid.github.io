@@ -1,4 +1,7 @@
-module.exports = {
+import path from 'path';
+
+/** @type {import('@docusaurus/types').Config} */
+export default {
   title: 'Ultroid',
   tagline: 'Ultroid, a pluggable telegram userbot, made in python using Telethon!',
   url: 'https://www.ultroid.org',
@@ -9,7 +12,7 @@ module.exports = {
   organizationName: 'TeamUltroid',
   projectName: 'teamultroid.github.io',
   themeConfig: {
-    metadatas: [{ name: 'yandex-verification', content: 'b8291c7f76165c9d' }],
+    metadata: [{ name: 'yandex-verification', content: 'b8291c7f76165c9d' }],
     colorMode: {
       defaultMode: 'dark',
       respectPrefersColorScheme: false,
@@ -71,8 +74,12 @@ module.exports = {
               href: 'https://telegram.dog/UltroidSupportChat',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/TheUltroid',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/Theultroid/',
+            },
+            {
+              label: 'X',
+              href: 'https://x.com/TheUltroid',
             }
           ],
         },
@@ -98,10 +105,17 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
+        },
+        blog: {
+          path: 'blog',
+          showReadingTime: true
+        },
+        pages: {
+          path: 'src/pages'
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: './src/css/custom.css',
         },
         gtag: {
           trackingID: 'G-DF813CEEN9',
