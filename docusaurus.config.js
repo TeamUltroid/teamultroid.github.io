@@ -78,10 +78,10 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/TeamUltroid/Ultroid',
             },
-            {
-              label: "URL Shortener",
-              href: "https://tiny.ultroid.tech"
-            }
+            // {
+            //   label: "URL Shortener",
+            //   href: "https://tiny.ultroid.tech"
+            // }
           ],
         },
       ],
